@@ -1,0 +1,47 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  nav {
+    display: flex;
+    div {
+      margin: auto 1em;
+      font-size: 25px;
+    }
+  }
+}
+#addCat {
+  margin-bottom: 50px;
+}
+.addWord {
+  width: 250px;
+  margin: auto;
+}
+#catPts {
+    text-align: center;
+}
+.btnRemoveCat {
+    position: absolute;
+    right: 0;
+    border-radius: 50%;
+}
+.card {
+  border: 1px solid gray;
+  border-radius: 10px;
+  width: 350px;
+  position: relative;
+//   height: 600px;
+  &__titulo {
+    text-align: center;
+    font-size: 30px;
+  }
+  &__lista {
+    list-style: none;
+    padding: 0;
+    li {
+      color: red;
+      text-align: center;
+      font-size: 21px;
+    }
+  }
+}
