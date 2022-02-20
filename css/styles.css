@@ -5,7 +5,9 @@ header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-bottom: 50px;
+  margin-bottom: 150px;
+  margin: auto;
+  background-color: black;
 }
 
 header nav {
@@ -19,8 +21,27 @@ header nav div {
   font-size: 25px;
 }
 
+body {
+  background-color: #dbbfbf;
+  margin: 0;
+}
+
+h1 {
+  margin: auto;
+  margin-bottom: 25px;
+  color: red;
+}
+
+main {
+  margin: auto;
+  width: 350px;
+}
+
 #addCat {
+  margin: auto;
   margin-bottom: 50px;
+  margin-top: 50px;
+  width: 300px;
 }
 
 .addWord {
@@ -49,22 +70,37 @@ header nav div {
           justify-content: center;
 }
 
+.btnBar button {
+  background-color: red;
+  color: white;
+  border-radius: 25px;
+  margin: 3px;
+}
+
 .btnRemoveCat {
   position: absolute;
   right: 0;
-  border-radius: 50%;
+  top: 0;
+  border-radius: 10px;
+  border: 1px solid green;
 }
 
 .btnRemoveWord {
   margin: 6px;
-  border-radius: 10px;
+  border-radius: 15px;
+  border: 1px solid green;
 }
 
 .card {
-  border: 1px solid gray;
+  border: 1px solid #487946;
   border-radius: 10px;
   width: 350px;
   position: relative;
+  background-color: yellow;
+  padding: 15px;
+  -webkit-box-shadow: 2px 2px 4px #dd6b6b;
+          box-shadow: 2px 2px 4px #dd6b6b;
+  margin: 15px;
 }
 
 .card__titulo {
@@ -81,5 +117,6 @@ header nav div {
   color: red;
   text-align: center;
   font-size: 21px;
+  font-weight: 600;
 }
 /*# sourceMappingURL=styles.css.map */

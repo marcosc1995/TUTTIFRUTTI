@@ -1,7 +1,9 @@
 header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 50px;
+  margin-bottom: 150px;
+  margin: auto;
+  background-color: black;
   nav {
     display: flex;
     div {
@@ -10,8 +12,25 @@ header {
     }
   }
 }
+body{
+  background-color: rgb(219, 191, 191);
+  margin: 0;
+}
+h1 {
+  margin: auto;
+  margin-bottom: 25px;
+  color: red;
+}
+main {
+  margin: auto;
+  width: 350px;
+}
 #addCat {
+  margin: auto;
   margin-bottom: 50px;
+  margin-top: 50px;
+  width: 300px;
+  
 }
 .addWord {
   width: 250px;
@@ -27,21 +46,34 @@ header {
 .btnBar{
   display: flex;
   justify-content: center;
+  button {
+    background-color: red;
+    color: white;
+    border-radius: 25px;
+    margin: 3px;
+  }
 }
 .btnRemoveCat {
     position: absolute;
     right: 0;
-    border-radius: 50%;
+    top: 0;
+    border-radius: 10px;
+    border: 1px solid green;
 }
 .btnRemoveWord{
   margin: 6px;
-  border-radius: 10px;
+  border-radius: 15px;
+  border: 1px solid green;
 }
 .card {
-  border: 1px solid gray;
+  border: 1px solid rgb(72, 121, 70);
   border-radius: 10px;
   width: 350px;
   position: relative;
+  background-color: yellow;
+  padding: 15px;
+  box-shadow: 2px 2px 4px rgb(221, 107, 107);
+  margin: 15px;
 //   height: 600px;
   &__titulo {
     text-align: center;
@@ -54,6 +86,7 @@ header {
       color: red;
       text-align: center;
       font-size: 21px;
+      font-weight: 600;
     }
   }
 }
